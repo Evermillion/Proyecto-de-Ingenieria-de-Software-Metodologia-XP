@@ -106,12 +106,10 @@
 								<?php
 									if($valido==1)
 									{
-										echo "<tr>";
 										foreach($resultado as $valor)
 										{
-											echo "<td>".$valor."</td>";
+											echo "<tr><td>".$valor."</td></tr>";
 										}
-										echo "</tr>";
 									}
 									else
 									{
