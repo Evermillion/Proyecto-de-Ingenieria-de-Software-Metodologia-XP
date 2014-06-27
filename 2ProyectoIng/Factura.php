@@ -106,16 +106,17 @@
 								<?php
 									if($valido==1)
 									{
+										echo "<tr>";
 										foreach($resultado as $valor)
 										{
-											echo "<tr><td>".$valor."</td></tr>";
+											echo "<td>".$valor."</td>";
 										}
+										echo "</tr>";
 									}
 									else
 									{
 										echo "Producto no registrado";
 									}
-								
 								?>
 
 								<tr>
